@@ -8,13 +8,19 @@ const router = createRouter({
 
       path: '/contador',
       name: 'contador',
-      component: () => import('../components/contador.vue')
+      component: () => import('../modules/contador/contador.vue')
       
     },
     {
       path: '/ListaObjeto',
       name: 'ListaObjeto',
-      component: () => import('../components/ListaObjeto.vue')
+      component: () => import('../modules/listaDeTareas/ListaObjeto.vue')
+
+    },
+    {
+      path: '/Registroview',
+      name: 'Registroview',
+      component: () => import('../modules/Registro/Views/Registroview.vue')
 
     }
 

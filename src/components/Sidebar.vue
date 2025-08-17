@@ -8,6 +8,9 @@
             <li>
                 <router-link to="/ListaObjeto"> Lista Objeto </router-link>
             </li>
+            <li>
+                <router-link to="/Registroview"> Registro </router-link>
+            </li>
         </ul>
 
     </div>
